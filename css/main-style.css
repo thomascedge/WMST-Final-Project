@@ -1,0 +1,212 @@
+/* pink color: #ffd1dc */
+
+/* BASIC SETUP */
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+div{
+    padding: 30px;
+}
+
+h3{
+    font-size: 70%;
+    letter-spacing: 5px;
+    text-align: center;
+    color: gray;
+}
+
+h5{
+    font-size: 50%;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: gray;
+}
+
+p{
+    font-size: 80%;
+    font-family: 'Space Mono', 'Courier', monospace;
+    text-align: justify;
+    color: gray;
+}
+
+img{
+    max-width: 85%;
+    height: auto;
+    width: auto;
+}
+
+.t-box{
+    padding: 0px 240px;
+}
+
+.row{
+    padding: 0px 0px;
+}
+
+.name{
+    text-align: right;
+}
+
+.divider{
+    padding: 0px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: lightgray;
+    height: 1px;
+    width: 700px;
+}
+
+
+/* NAVIGATION DIV */
+.t-nav-container{
+    position: fixed;
+    margin: 0 auto;
+    display: grid;
+    transform-origin: left top;
+    transform: rotate(-90deg) translateX(-100%);
+}
+
+.menu{
+    margin: 0 auto;
+    float: right;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu li{
+    font-size: 50%;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    color: gray;
+    letter-spacing: 5px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    text-decoration:none;
+    color: gray;
+}
+
+.menu a:hover{
+    text-decoration:none;
+    color: gray;
+}
+
+.menu a:hover{
+    text-decoration:none;
+    color: #ffd1dc;
+}
+
+
+
+/* TITLE DIV */
+.t-title-container{
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-color: transparent;
+}
+
+.t-title-container h1{
+    color: #ffd1dc;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+
+
+/* QUOTE DIV */
+.t-heading-container{
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-color: #ffd1dc;
+}
+
+.t-heading-container h2{
+    font-size: 150%;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+/* JASMIN DIV */
+.rhea-img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* RHEA DIV */
+.jasmin-img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* BRIAN DIV */
+.brian-img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* THOMAS DIV */
+#change-text{
+    padding: 0px;
+    font-size: 79%;
+    padding-right: 40.8px;
+    font-family: 'Space Mono', 'Courier', monospace;
+    text-align: justify;
+    color: gray;
+}
+
+.thomas-pic{
+    padding: 15px 0px;
+}
+
+
+
+
+/* FOOTER DIV */
+.t-footer-container{  
+    background-color: #ffd1dc;
+}
+
+.t-footer-container p{
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-size: 80%;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #ffffff;
+}
